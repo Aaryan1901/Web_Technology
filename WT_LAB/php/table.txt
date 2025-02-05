@@ -1,0 +1,11 @@
+CREATE TABLE aa1 (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL
+);
+
+
+Instructions
+
+1.)http://localhost/crud.php
+2.)http://localhost/phpmyadmin/
