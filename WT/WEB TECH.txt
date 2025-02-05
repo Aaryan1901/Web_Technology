@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Formatting using CSS</title>
+    <style>
+        body {
+            color: blue;
+        }
+        h1 {
+            color: red;
+            text-align: center;
+            background-color: lavender;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Technology</h1>
+    <center>
+        <p>
+            Web technology refers to the various ways which computers communicate with each other using markup languages 
+            <b>and multimedia packages</b>.
+        </p>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linking</title>
+    <style>
+        h1 {
+            background-color: aqua;
+        }
+        p {
+            background-color: silver;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Linking Websites</h1>
+        <a href="https://www.w3schools.com/html" target="_blank">
+            Visit our HTML tutorial
+        </a>
+    </center>
+</body>
+</html>
+
+
+
+
+
+
+<html>
+<head>
+    <title>Embedded Image</title>
+    <style>
+        h2 {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>SMILE</h2>
+        <img src="smile.png" style="width:225px; height:225px">
+    </center>
+</body>
+</html>
+
+
+
+<img src="images/smile.png" style="width:225px; height:225px">
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <title>Table Creation</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h2>Timetable</h2>
+    </center>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th>Day/Period</th>
+            <th>1st</th>
+            <th>2nd</th>
+            <th>3rd</th>
+            <th>4th</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Eng</td>
+            <td>Science</td>
+            <td>Hist</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>Hist</td>
+            <td>Math</td>
+            <td>Eng</td>
+            <td>Science</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>Eng</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Hist</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>Science</td>
+            <td>Math</td>
+            <td>Hist</td>
+            <td>Eng</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>ICT</td>
+            <td>Math</td>
+            <td>Eng</td>
+            <td>Science</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<html>
+<head>
+    <title>Frames</title>
+</head>
+<frameset cols="50%,50%">
+    <frame src="image.html">
+    <frame src="table.html">
+</frameset>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
