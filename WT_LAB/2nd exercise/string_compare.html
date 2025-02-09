@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            String Comparison
+        </title>
+        <script type = "text/javascript">
+            function compare(){
+                var str1 = document.getElementById("s1").value;
+                var str2 = document.getElementById("s2").value;
+                var result = str1.localeCompare(str2);
+                console.log(str1, str2, result);
+                if(result == 0){
+                    document.getElementById("result").innerHTML = "Both strings are equal.";
+                }else{
+                    document.getElementById("result").innerHTML = "Both strings are not equal.";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <form>
+                <center>
+                    <h1> String Comparison</h1>
+                </center>
+                <label for="s1">String 1 :</label>
+                <input type="text" id="s1">
+                <label for="s2">String 2 :</label>
+                <input type="text" id="s2">
+                <br><br>
+                <input type="button" onclick="compare()" value="Compare">
+            </form>
+            <p id="result" class="result"></p>
+        </div>
+    </body>
+</html>

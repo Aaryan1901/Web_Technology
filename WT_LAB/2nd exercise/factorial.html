@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Factorial</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var n = parseInt(window.prompt("Enter a number: "));
+            var result = fact(n);
+            var res = "Factorial of the given number " + n + ": " + result;
+            console.log(res);
+            window.alert(res);
+            
+            function fact(n) {
+                if (n == 0) {
+                    return 1;
+                }
+                else {
+                    return n * fact(n - 1);
+                }
+            }
+        </script>
+    </body>
+</html>

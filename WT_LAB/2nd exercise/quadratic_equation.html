@@ -1,0 +1,25 @@
+<html>
+    <title>
+        Quadratic Equation
+    </title>
+    <head>
+        <script type="text/javascript">
+            function Roots(){
+                var a = prompt("Enter value of a :", "-1");
+                var b = prompt("Enter value of b :", "-1");
+                var c = prompt("Enter value of c :", "4");
+                var root_part = Math.sqrt(b * b - 4 * a * c);
+                var denom = 2 * a;
+                var root1 = (-b + root_part) / denom;
+                var root2 = (-b - root_part) / denom;
+                document.write("Roots of the equation are: " + root1 + " and " + root2 );
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            Calculate quadratic equation
+        </h1>
+        <input type="button" onclick="Roots()" value="Root Calculator">
+    </body>
+</html>
